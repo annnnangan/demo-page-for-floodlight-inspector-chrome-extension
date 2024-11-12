@@ -18,7 +18,6 @@ document.querySelector("#contact-us-form").addEventListener("submit", async (e) 
     event: "submitContactUsForm",
     hashedEmail: formObject.email,
   });
-  console.log(formObject.email);
 });
 
 //push data layer when purchase
