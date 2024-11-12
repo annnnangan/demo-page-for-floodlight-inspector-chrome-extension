@@ -30,11 +30,117 @@
       ><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJQMSS3Q" height="0" width="0" style="display: none; visibility: hidden"></iframe
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div class="container mt-5">
+    <div class="container my-5">
       <h1 class="mb-4">Demo Page for Floodlight Inspector Chrome Extension</h1>
-      <button class="btn btn-primary me-5 btn-a">Click Me to trigger a FL tag</button>
-      <button class="btn btn-success btn-b">Click Me to trigger another FL tag</button>
     </div>
+
+    <!-- Section 1: View Blog -->
+    <div class="container my-5">
+      <h2 class="text-primary">View Blog</h2>
+      <p class="fs-5">Trigger standard tag below</p>
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">What is Floodlight tag?</h5>
+              <p class="card-text">
+                Floodlight is used for conversion and event tracking across Google Marketing Platform, including Campaign Manager 360, Display & Video
+                360, and the new Search Ads 360.
+              </p>
+              <a href="https://support.google.com/campaignmanager/answer/3027419?hl=en" class="btn btn-primary" target="_blank">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">什麼是Floodlight?</h5>
+              <p class="card-text flex-grow-1">
+                Floodlight 可用於在 Google Marketing Platform (包括 Campaign Manager 360、Display & Video 360 和新版 Search Ads 360)
+                上追蹤轉換和事件。
+              </p>
+              <div class="mt-auto">
+                <a
+                  href="https://support.google.com/campaignmanager/answer/3027419?hl=zh-Hant&sjid=16848987714771096958-AP"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >了解更多</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <hr />
+    </div>
+
+    <!-- Section 2: Submit Contact Us Form -->
+    <div class="container my-5">
+      <h2 class="text-primary">Submit Contact Us Form</h2>
+      <p class="fs-5">Trigger unique tag below</p>
+      <form id="contact-us-form">
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com" value="name@example.com" />
+        </div>
+        <div class="mb-3">
+          <button type="submit" class="btn btn-primary mb-3">Submit</button>
+        </div>
+      </form>
+      <div class="alert alert-success" role="alert">Thank you for submitting! We will contact you soon!</div>
+    </div>
+
+    <div class="container my-5">
+      <hr />
+    </div>
+
+    <!-- Section 3: Purchase -->
+    <div class="container my-5">
+      <h2 class="mb-3 text-primary">Purchase</h2>
+      <p class="fs-5">Trigger sales tag below</p>
+      <form id="purchase-form">
+        <h5>Your Orders</h5>
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="/assets/sunglasses.jpg" class="img-fluid rounded-start" alt="sunglasses" />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body d-flex flex-column h-100">
+                <h5 class="card-title fw-bold">Sunglasses 太陽眼鏡 <span class="fs-6 fw-normal">(ID: HKS20432)</span></h5>
+                <p class="card-text flex-grow-1">Count: 1</p>
+                <p class="card-text text-end fw-bold mt-auto">Price: HKD$ 1,200</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="/assets/watch.jpg" class="img-fluid rounded-start h-100" alt="watch" />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Watch 手錶 <span class="fs-6 fw-normal">(ID: HKW93852)</span></h5>
+                <p class="card-text">Count: 1</p>
+                <p class="card-text text-end fw-bold">Price: HKD$ 2,200</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <p class="fw-bold">Total Amount: HKD$ 2,400</p>
+        </div>
+
+        <div class="mb-3">
+          <button type="submit" class="btn btn-primary mb-3">Purchase</button>
+        </div>
+      </form>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
