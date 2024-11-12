@@ -28,10 +28,10 @@ document.querySelector("#purchase-form").addEventListener("submit", async (e) =>
     transactionId: "HK20241112022",
     totalValue: 3400,
     totalCount: 2,
-    name: "Sunglasses 太陽眼鏡|Watch 手錶",
-    id: "HKS20432|HKW93852",
-    price: "1200|2200",
-    count: "1|1",
+    productName: "Sunglasses 太陽眼鏡|Watch 手錶",
+    productId: "HKS20432|HKW93852",
+    productPrice: "1200|2200",
+    productCount: "1|1",
   };
 
   purchaseMessage.innerHTML = `
