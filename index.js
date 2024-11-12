@@ -27,7 +27,7 @@ document.querySelector("#purchase-form").addEventListener("submit", async (e) =>
 
   let order = {
     transactionId: "HK20241112022",
-    totalValue: 2200,
+    totalValue: 3400,
     totalCount: 2,
     name: "Sunglasses 太陽眼鏡|Watch 手錶",
     id: "HKS20432|HKW93852",
