@@ -42,7 +42,7 @@ document.querySelector("#purchase-form").addEventListener("submit", async (e) =>
 
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    event: "submitContactUsForm",
+    event: "purchase",
     orderDetails: order,
   });
 });
